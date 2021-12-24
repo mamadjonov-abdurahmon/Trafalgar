@@ -1,0 +1,639 @@
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/mulish-v7-latin_cyrillic-300.woff2') format('woff2'),
+         url('../fonts/mulish-v7-latin_cyrillic-300.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src:
+         url('../fonts/mulish-v7-latin_cyrillic-regular.woff2') format('woff2'),
+         url('../fonts/mulish-v7-latin_cyrillic-regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src:
+         url('../fonts/mulish-v7-latin_cyrillic-700.woff2') format('woff2'),
+         url('../fonts/mulish-v7-latin_cyrillic-700.woff') format('woff');
+  }
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "mulish" , 'Arial',sans-serif;
+    font-weight: 300;
+}
+
+    /* =====================HEADER====================== */
+
+    .container{
+        width: 1260px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right:  auto;
+        margin-left:  auto;
+    }
+
+   .header-link-logo{
+       text-decoration: none;
+   }
+
+   .logo-img{
+       width: 160px;
+       height: 41px;
+       margin-top: 135px;
+   }
+
+   .header-nav{
+       display: flex;
+       margin-bottom: 191px;
+   }
+
+   .header-item{
+       margin: 0;
+       display: flex;
+       margin-left: 460px;
+       list-style: none;
+       margin-top: 149px;
+   }
+
+   .header-link-list{
+       text-decoration: none;
+       vertical-align: middle;
+       opacity: 0.5;
+    }
+
+    .header-link-list:hover{
+        opacity: 1;
+    }
+
+   .header-link{
+       text-decoration: none;
+       vertical-align: middle;
+       display: flex;
+       margin-left: 40px;
+       opacity: 0.5;
+    }
+
+    .header-link:hover{
+        opacity: 1;
+        color: #000;
+        background-color: #4089ED;
+    }
+
+
+    /* ======================MAIN=================== */
+
+    .main-section{
+        background-image: url('../images/adreee.svg');
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: calc(50% - 700px) calc(6% + 10px);
+    }
+
+    .main-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 113px;
+    }
+
+    .main-div{
+        width: 305px;
+        vertical-align: middle;
+    }
+
+    .main-vertual{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 56px;
+        color: #000000;
+        margin-bottom: 25px;
+    }
+
+    .main-texst{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 21px;
+        line-height: 32px;
+        color: #7D7987;
+        margin-bottom: 45px;
+    }
+
+    .main-link{
+        text-decoration: none;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 60px;
+        color: #FFFFFF;
+        border-radius: 55px;
+        background: #458FF6;
+        padding: 15px 20px;
+    }
+
+    .main-link:hover{
+        opacity: 0.6;
+    }
+
+    .main-img{
+        display: flex;
+        vertical-align: middle;
+        width: 693px;
+        height: 598px;
+    }
+
+    /* ====================SITE_SECTION=================== */
+
+    .intro-section{
+        margin-bottom: 220px;
+        background-image: url('../images/Frame\(13\).svg') , url('../images/adreee.svg');
+        background-repeat: no-repeat;
+        background-position: calc(50% - 550px) calc(10% - 210px) , calc(50% + 560px) calc(35% + 50px);
+
+    }
+
+    .site-ordrid-list{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .site-our-services{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 56px;
+        color: #000000;
+        margin-bottom: 26px;
+    }
+
+    .site-line{
+        display: block;
+        width: 56px;
+        height: 2px;
+        background-color: #000;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-bottom: 31px;
+    }
+
+    .site-texst{
+        width: 952px;
+        margin: 0 auto;
+    }
+
+    .intro-item{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-left: -30px;
+        margin-bottom: 69px;
+        padding-left: 20px;
+    }
+
+    .intro-list{
+        background: #FFFFFF;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        width: 350px;
+        height: 354px;
+        padding: 50px;
+        margin: 30px;
+    }
+
+    .intro-img{
+        width: 92px;
+        height: 90px;
+    }
+
+    .intro-search-doctor{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 56px;
+        color: #000000;
+    }
+
+    .intro-text{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #7D7987;
+    }
+
+    .intro-learn-more{
+        display: block;
+        width: 200px;
+        padding: 15px 30px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #458FF6;
+        border: 1.4px solid #458FF6;
+        border-radius: 55px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* =========================wrapper-section================== */
+
+    .wrapper-section{
+        background-image: url('../images/adreee.svg');
+        background-repeat: no-repeat;
+        background-size: 150px;
+        background-position: calc(50% + 750px) calc(40% + 20px);
+    }
+
+    .wrapper-box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+        margin-bottom: 113px;
+        margin-bottom: 229px;
+    }
+
+    .wrapper-div{
+        width: 305px;
+        vertical-align: middle;
+    }
+
+    .wrapper-vertual{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 56px;
+        color: #000000;
+        margin-bottom: 26px;
+    }
+
+    .wrapper-line{
+        display: block;
+        width: 56px;
+        height: 2px;
+        background-color: #000;
+        border-radius: 50px;
+        margin-bottom: 31px;
+        margin-bottom: 31px;
+    }
+
+    .wrapper-texst{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        color: #7D7987;
+        margin-bottom: 37;
+    }
+
+    .wrapper-link{
+        text-decoration: none;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        display: block;
+        width: 200px;
+        padding: 15px 15px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #458FF6;
+        border: 1.4px solid #458FF6;
+        border-radius: 55px;
+        text-align: center;
+    }
+
+    /* =================WRAP-section=================== */
+
+    .wrap-section{
+        background-image: url('../images/adreee.svg');
+        background-repeat: no-repeat;
+        background-size: 150px;
+        background-position: calc(50% - 550px) calc(30% + 150px)  ;
+    }
+
+    .wrap-box{
+        width: 1120px;
+        height: 425px;
+        background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+        border-radius: 24px;
+        align-items: center;
+        margin-bottom: 44px;
+        margin: 0 auto;
+    }
+
+    .wrap-title{
+        text-align: center;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+
+    .wrap-line{
+        display: block;
+        width: 56px;
+        height: 2px;
+        background-color: #ffff;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-bottom: 110px;
+    }
+
+    .wrap-second-box{
+        display: flex;
+        align-items: center;
+    }
+
+    .wrap-edward-img{
+        margin-left: 124px;
+    }
+
+    .wrap-thind-box{
+        margin-left: 29px;
+    }
+
+    .wrap-name{
+        margin: 0;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+
+    .wrap-surname{
+        margin: 0;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 48px;
+        color: #B2D1F9;
+    }
+
+    .wrap-texst{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 30px;
+        color: #B2D1F9;
+        width: 420px;
+        margin-left: 110px;
+    }
+
+    /* ===================section================ */
+
+    .wrap-arrow{
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 44px;
+        padding-left: 275px;
+        margin-bottom: 180px;
+    }
+
+    .wrap-img{
+        width: 28px;
+        height: 18px;
+        margin: 0px 120px 0px 120px ;
+    }
+
+    .wrap-points{
+        display: block;
+        border-radius: 50%;
+        background-color:#5A98F2 ;
+        width: 15px;
+        height: 15px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .wrap-points-item{
+        display: block;
+        border-radius: 50%;
+        background-color:#CEE1FB ;
+        width: 15px;
+        height: 15px;
+        margin-bottom: 50px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    /* ======================SECTION=================== */
+
+    .holder-section{
+        background-image: url('../images/adreee.svg') , url('../images/element\(14\).svg');
+        background-repeat: no-repeat;
+        background-size: 150px , ;
+        background-position: calc(50% - 580px) calc(10% + 40px) ,  calc(50% + 720px) calc(10% - 20px) ;
+    }
+
+    .holder-titl{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 56px;
+        color: #000000;
+        text-align: center;
+    }
+
+    .holder-line{
+        display: block;
+        width: 56px;
+        height: 2px;
+        background-color: #000;
+        border-radius: 5px;
+        margin: 0 auto;
+        margin-bottom: 72px;
+    }
+
+    .holder-big-box{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .holder-box{
+        width: 369px;
+        height: 552px;
+        background: #FFFFFF;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+        border-radius: 20px;
+        margin-bottom: 69px;
+    }
+
+    .holder-thind-titl{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 32px;
+        color: #000000;
+        width: 251px;
+    }
+
+    .holder-texst{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #7D7987;
+        width: 266px;
+    }
+
+    .holder-second-box{
+        padding: 40px;
+    }
+
+    .holder-link{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 28px;
+        color: #4089ED;
+        text-decoration: none;
+    }
+
+    .holder-img-arrow{
+        width: 14px;
+        height: 9px;
+        margin-left: 10px;
+    }
+
+    .holder-img{
+        width: 369px;
+        height: 246px;
+        padding: -50px;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .holder-lower-part-link{
+        display: block;
+        width: 200px;
+        padding: 15px 30px;
+        text-decoration: none;
+        font-size: 18px;
+        color: #458FF6;
+        border: 1.4px solid #458FF6;
+        border-radius: 55px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 201px;
+    }
+
+    /* ======================FOOTER======================= */
+
+    footer{
+        position: absolute;
+        width: 100%;
+        height: 432px;
+        background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+        margin: 0 auto;
+        margin-bottom: 118px;
+    }
+
+    .footer-section{
+        background-image: url('../images/adreee.svg') ;
+        background-repeat: no-repeat;
+        background-position: calc(5% - 80px) calc(80% + 50px);
+    }
+
+    .footer-box{
+        display: flex;
+        margin-top: 118px;
+        margin-left: 32px;
+    }
+
+    .footer-box-list{
+        width: 391px;
+    }
+
+    .lower-part-link-img{
+        text-decoration: none;
+    }
+
+    .footer-logo{
+        margin-bottom: 22px;
+        width: 160px;
+        height: 41px;
+    }
+
+    .footer-text{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        margin-bottom: 31px;
+    }
+
+    .modol-text{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .modol-company{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 60px;
+        color: #FFFF;
+        margin-left: 145px;
+        margin-bottom: 22px;
+    }
+
+    .footer-item{
+        list-style: none;
+        margin-left: 110px;
+    }
+
+    .modol-link{
+        text-decoration: none;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
